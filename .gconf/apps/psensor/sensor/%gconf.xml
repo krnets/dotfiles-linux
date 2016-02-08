@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="update_interval" mtime="1452855568" type="int" value="1"/>
+</gconf>

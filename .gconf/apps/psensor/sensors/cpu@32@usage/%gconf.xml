@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="enabled" mtime="1452839290" type="bool" value="true"/>
+	<entry name="position" mtime="1452839325" type="int" value="3"/>
+	<entry name="color" mtime="1452839325" type="string">
+		<stringvalue>#cccc00000000</stringvalue>
+	</entry>
+</gconf>
