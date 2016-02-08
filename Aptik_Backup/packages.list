@@ -1,0 +1,118 @@
+apache2-bin #Apache HTTP Server (binary files and modules)
+apache2.2-bin #Transitional package for apache2-bin
+aptik #Utility to backup and restore PPAs and packages.
+aptik-battery-monitor #Utility to monitory battery life on laptops
+atom #Atom text editor from GitHub
+atop #Monitor for system resources and process activity
+brackets #Brackets
+browser-plugin-vlc #multimedia plugin for web browsers based on VLC
+build-essential #Informational list of build-essential packages
+cabal-install #command-line interface for Cabal and Hackage
+calibre #e-book converter and library management
+clementine #modern music player and library organizer
+clisp #GNU CLISP, a Common Lisp implementation
+compiz #OpenGL window and compositing manager
+curl #command line tool for transferring data with URL syntax
+dconf-editor #simple configuration storage system - utilities
+dconf-tools #transitional dummy package
+dcraw #decode raw digital camera images
+deluge #bittorrent client written in Python/PyGTK
+doublecmd-qt #twin-panel (commander-style) file manager (Qt4)
+emacs #GNU Emacs editor (metapackage)
+emacs-snapshot #GNU Emacs editor (with GTK+ user interface)
+emacs24 #GNU Emacs editor (with GTK+ user interface)
+fbreader #e-book reader
+fish #friendly interactive shell
+g++ #GNU C++ compiler
+git #fast, scalable, distributed revision control system
+gnome-power-manager #power management tool for the GNOME desktop
+gnome-rdp #remote desktop client for GNOME
+gnome-tweak-tool #tool to adjust advanced configuration settings for GNOME
+google-chrome-stable #The web browser from Google
+gparted #GNOME partition editor
+groovy #Agile dynamic language for the Java Virtual Machine
+gstreamer0.10-libde265 #HEVC/H.265 Video Decoder (GStreamer plugin)
+gtkorphan #A graphical tool to find and remove orphaned libraries
+guake #Drop-down terminal for GNOME Desktop Environment
+haskell-platform #Standard Haskell libraries and tools
+htop #interactive processes viewer
+hugs #A Haskell 98 interpreter
+leiningen #simple build system for Clojure
+libapache2-mod-dnssd #Zeroconf support for Apache 2 via avahi
+libboost-python1.54.0 #Boost.Python Library
+libcurl3 #easy-to-use client-side URL transfer library (OpenSSL flavour)
+libde265 #Open H.265 video codec implementation
+libexpat-ocaml #OCaml expat bindings
+libexpat-ocaml-dev #OCaml expat bindings
+libgif-dev #library for GIF images (development)
+libgnutls-dev #GNU TLS library - development files
+libjpeg-dev #Independent JPEG Group's JPEG runtime library (dependency package)
+libmysqlclient18 #MySQL database client library
+libpng++-dev #C++ interface to the PNG (Portable Network Graphics) library
+libpng3 #PNG library - runtime
+libshine3 #Fixed-point MP3 encoding library - runtime files
+libtiff5-dev #Tag Image File Format library (TIFF), development files
+libtinfo-dev #developer's library for the low-level terminfo library
+libtomcat7-java #Servlet and JSP engine -- core libraries
+libtool #Generic library support script
+libtorrent-rasterbar7 #C++ bittorrent library by Rasterbar Software
+libvlccore8 #base library for VLC and its modules
+libxaw7-dev #X11 Athena Widget library (development headers)
+libxml2-dev #Development files for the GNOME XML library
+libxml2-utils #XML utilities
+light-themes #Light Themes (Ambiance and Radiance)
+mc #Midnight Commander - a powerful file manager
+mediainfo #command-line utility for reading information from audio/video files
+mencoder #MPlayer's Movie Encoder
+mint-backgrounds-rafaela #The desktop backgrounds for Linux Mint 17.2 Rafaela
+mint-upgrade-info #Information about upgrade paths
+mysql-client-5.5 #MySQL database client binaries
+mysql-client-core-5.5 #MySQL database core client binaries
+mysql-server #MySQL database server (metapackage depending on the latest version)
+mysql-server-5.5 #MySQL database server binaries and system database setup
+ncdu #ncurses disk usage viewer
+netbeans #Extensible Java IDE
+nodejs #evented I/O for V8 javascript
+oneconf #synchronize your configuration data over the network
+opera-stable #Fast and secure web browser
+oracle-java8-installer #Oracle Java(TM) Development Kit (JDK) 8
+oracle-java8-set-default #Set Oracle JDK 8 as default Java
+ps3mediaserver-multiarch-all:i386 #Multi-arch libs for PS3 Media Server
+psensor #display graphs for monitoring hardware temperature
+putty #Telnet/SSH client for X
+putty-tools #command-line tools for SSH, SCP, and SFTP
+python-dev #header files and a static library for Python (default)
+python-libtorrent #Python bindings for libtorrent-rasterbar
+python-pip #alternative Python package installer
+python-requests #elegant and simple HTTP library for Python, built for human beings
+python-setuptools #Python Distutils Enhancements (setuptools compatibility)
+python-xlib #Interface for Python to the X11 Protocol
+rdesktop #RDP client for Windows NT/2000 Terminal Server and Windows Servers
+redshift #Adjusts the color temperature of your screen
+redshift-gtk #Adjusts the color temperature of your screen with GTK+ integration
+remmina-plugin-rdp #RDP plugin for remmina remote desktop client
+sbcl #Common Lisp compiler and development system
+sbt #sbt, the interactive build tool
+scala-doc #Scala API documentation
+screen #terminal multiplexer with VT100/ANSI terminal emulation
+skype #client for Skype VOIP and instant messaging service
+smplayer #A great media player
+smplayer-skins #Skin themes for SMPlayer
+smplayer-themes #Icon themes for SMPlayer
+stack #The Haskell Tool Stack
+sublime-text #Sublime Text is a sophisticated text editor for code, markup and prose
+terminator #multiple GNOME terminals in one window
+traceroute #Traces the route taken by packets over an IPv4/IPv6 network
+tree #displays directory tree, in color
+ubuntuone-client-data #Data files for Ubuntu One
+vim #Vi IMproved - enhanced vi editor
+vim-gnome #Vi IMproved - enhanced vi editor - with GNOME2 GUI
+vlc-plugin-libde265 #HEVC/H.265 video decoder plugin for VLC
+vlc-plugin-samba #Samba plugin for VLC
+wine #Microsoft Windows Compatibility Layer (meta-package)
+wireshark #network traffic analyzer - GTK+ version
+xaw3dg #Xaw3d widget set
+xclip #command line interface to X selections
+xsel #command-line tool to access X clipboard and selection buffers
+zenmap #The Network Mapper Front End
+zsh #shell with lots of features

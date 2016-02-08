@@ -1,0 +1,10 @@
+hvr/ghc #ghc-7.8.4-htmldocs ghc-7.8.4-prof cabal-install-1.20 cabal-install-1.22 ghc-7.8.4-dyn ghc-7.8.4 
+kirillshkrogalev/ffmpeg-next #libshine3 
+mc3man/trusty-media #vlc libvorbis0a libavutil52 libavresample1 vlc-plugin-libde265 libvpx1:i386 libopus0 libde265 libva1 vlc-plugin-samba libvorbisenc2:i386 totem libfaac0 libdvdnav4 libass5 libtotem-plparser18 smplayer-skins totem-plugins libfdk-aac0 smplayer-themes libmpcdec6 libmp3lame0 gir1.2-totem-plparser-1.0 libavformat54 libvorbisenc2 libva-drm1 libdvdread4 vlc-nox libswscale2 libmediainfo0 libavcodec54 totem-mozilla libvncclient0 totem-plugins-extra libtotem0 mediainfo libva-x11-1 libzen0 vlc-data totem-common libvlc5 libvorbisfile3 libvorbis0a:i386 libvpx1 gstreamer0.10-ffmpeg gir1.2-totem-1.0 libvlccore8 libvorbisfile3:i386 vlc-plugin-notify libaacs0 libx264-142 
+noobslab/apps #ps3mediaserver-multiarch-all:i386 
+rvm/smplayer #libbluray1 smplayer 
+strukturag/libde265 #gstreamer0.10-libde265 
+teejee2008/ppa #aptik aptik-battery-monitor 
+ubuntu-elisp/ppa #emacs-snapshot-common emacs-snapshot 
+webupd8team/atom #atom 
+webupd8team/java #oracle-java8-installer oracle-java8-set-default 
