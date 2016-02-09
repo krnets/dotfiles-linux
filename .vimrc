@@ -1,4 +1,8 @@
+execute pathogen#infect()
+
 syntax on
+filetype plugin indent on
+set laststatus=2
 set guifont="Inconsolata LGC":h16
 "Take care of indents for Java.
 set ts=4
