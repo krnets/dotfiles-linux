@@ -20,20 +20,20 @@ sudo apt update
 # Install
 sudo apt install google-chrome-stable -y
 sudo apt install stack -y
-
 sudo apt install git -y
 sudo apt install zsh -y
 sudo apt install mc -y
 sudo apt install guake -y
 sudo apt install tree -y
-
+sudo apt install htop -y
 sudo apt install neovim -y
 sudo apt install emacs-snapshot -y
 sudo apt install font-manager -y
 sudo apt install qpdfview -y
-
 sudo apt install mint-meta-codecs -y
 sudo apt install smplayer -y
+sudo apt install remmina -y
+sudo apt install remmina-plugin-rdp -y
 
 git clone https://github.com/syl20bnr/spacemacs ~/.emacs.d
 
@@ -55,6 +55,17 @@ echo SUSPEND_MODULES="iwlwifi"|sudo tee /etc/pm/config.d/config
 
 # Disable blinking wifi light
 echo "echo \"options iwlwifi led_mode=1\" >> /etc/modprobe.d/iwlwifi.conf" | sudo bash
+
+# Haskell Stack build plan download, fetch package index, populate index cache
+stack ghci
+
+# Install GHC to an isolated location
+stack setup
+
+# Anaconda3 python install - https://www.continuum.io/downloads#linux
+wget https://repo.continuum.io/archive/Anaconda3-4.2.0-Linux-x86_64.sh -O ~/Downloads/anaconda3.sh
+bash ~/Downloads/anaconda3.sh -b -p $HOME/anaconda
+export PATH="$HOME/anaconda/bin:$PATH"
 
 # Download and install Visual Studio Code:
 firefox http://code.visualstudio.com/docs/?dv=linux64_deb
