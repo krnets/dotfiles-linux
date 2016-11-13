@@ -1,0 +1,61 @@
+# Add Neovim source repository
+sudo add-apt-repository ppa:neovim-ppa/unstable
+
+# Add Emacs snapshot repository
+sudo add-apt-repository ppa:ubuntu-elisp/ppa
+
+# Google Chrome 64 stable
+wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add - 
+
+sudo sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google-chrome.list'
+
+# Haskell Stack
+sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 575159689BEFB442
+
+echo 'deb http://download.fpcomplete.com/ubuntu xenial main'|sudo tee /etc/apt/sources.list.d/fpco.list
+
+# Update local APT cache
+sudo apt update
+
+# Install
+sudo apt install google-chrome-stable -y
+sudo apt install stack -y
+
+sudo apt install git -y
+sudo apt install zsh -y
+sudo apt install mc -y
+sudo apt install guake -y
+sudo apt install tree -y
+
+sudo apt install neovim -y
+sudo apt install emacs-snapshot -y
+sudo apt install font-manager -y
+sudo apt install qpdfview -y
+
+sudo apt install mint-meta-codecs -y
+sudo apt install smplayer -y
+
+git clone https://github.com/syl20bnr/spacemacs ~/.emacs.d
+
+# Oh-my-zsh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
+# Node Version Manager
+wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.32.1/install.sh | bash
+
+# Zsh plugin for installing, updating and loading nvm
+git clone https://github.com/lukechilds/zsh-nvm ~/.oh-my-zsh/custom/plugins/zsh-nvm
+
+# Then load as a plugin in your .zshrc 
+# plugins+=(zsh-nvm)
+# Keep in mind that plugins need to be added before oh-my-zsh.sh is sourced.
+
+# Fix for wireless after wake issue
+echo SUSPEND_MODULES="iwlwifi"|sudo tee /etc/pm/config.d/config
+
+# Disable blinking wifi light
+echo "echo \"options iwlwifi led_mode=1\" >> /etc/modprobe.d/iwlwifi.conf" | sudo bash
+
+# Download and install Visual Studio Code:
+firefox http://code.visualstudio.com/docs/?dv=linux64_deb
+
